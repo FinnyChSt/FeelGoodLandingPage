@@ -31,7 +31,6 @@ jobs:
     - uses: actions/upload-artifact@v3.1.1
       with: 
         name: build-artifact
-        path: public/
     
   test:
     runs-on: ubuntu-latest
@@ -41,11 +40,7 @@ jobs:
     - name: Download build artifact
       uses: actions/download-artifact@v3.0.1
       with:
-        name: build-artifact
-        path: public
-    
-    - run: cd /home/runner/work/FeelGoodLandingPage/FeelGoodLandingPage/public
-    - run: ls
+        name: build-artifact    
     - run: yarn test
 
    # - run: npm ci
