@@ -1,0 +1,13 @@
+name: Approval Workflow
+on: pull_request_review
+
+jobs:
+  labelWithApproved:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Apply approved label to pull request
+        uses: abinoda/label-when-approved-action@1.0.5
+        env:
+          APPROVAL: "1"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ADD_LABEL: "approved"
