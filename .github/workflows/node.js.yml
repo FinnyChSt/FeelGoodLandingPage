@@ -44,6 +44,7 @@ jobs:
         name: build-artifact
         path: public
     
+    - run: cd public
     - run: yarn test
 
    # - run: npm ci
