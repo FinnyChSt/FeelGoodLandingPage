@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.246db780.css",
-    "main.js": "/static/js/main.332fa244.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/index.html",
-    "main.246db780.css.map": "/static/css/main.246db780.css.map",
-    "main.332fa244.js.map": "/static/js/main.332fa244.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/FeelGoodLandingPage/static/css/main.246db780.css",
+    "main.js": "/FeelGoodLandingPage/static/js/main.0e3e7238.js",
+    "static/js/787.28cb0dcd.chunk.js": "/FeelGoodLandingPage/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/FeelGoodLandingPage/index.html",
+    "main.246db780.css.map": "/FeelGoodLandingPage/static/css/main.246db780.css.map",
+    "main.0e3e7238.js.map": "/FeelGoodLandingPage/static/js/main.0e3e7238.js.map",
+    "787.28cb0dcd.chunk.js.map": "/FeelGoodLandingPage/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.246db780.css",
-    "static/js/main.332fa244.js"
+    "static/js/main.0e3e7238.js"
   ]
 }
