@@ -44,7 +44,8 @@ jobs:
         name: build-artifact
         path: public
     
-    - run: cd public
+    - run: cd /home/runner/work/FeelGoodLandingPage/FeelGoodLandingPage/public
+    - run: ls
     - run: yarn test
 
    # - run: npm ci
